@@ -7,23 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7507B789286AE4330040D202 /* ShowCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7507B788286AE4330040D202 /* ShowCollectionViewCell.swift */; };
+		7507B78B286AED320040D202 /* ShowsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7507B78A286AED320040D202 /* ShowsViewController.swift */; };
+		7507B78D286CB9220040D202 /* ShowsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7507B78C286CB9220040D202 /* ShowsViewModel.swift */; };
+		7507B78F286D00DB0040D202 /* SeatSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7507B78E286D00DB0040D202 /* SeatSelectionViewController.swift */; };
+		7507B791286D0DB80040D202 /* SeatCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7507B790286D0DB80040D202 /* SeatCollectionViewCell.swift */; };
+		7507B793286D0E9E0040D202 /* SelectedSeatCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7507B792286D0E9E0040D202 /* SelectedSeatCollectionViewCell.swift */; };
+		7581A3CE284CC12500BEDFD3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7581A3CD284CC12500BEDFD3 /* GoogleService-Info.plist */; };
+		7581A3DB284CEAFC00BEDFD3 /* SignInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7581A3DA284CEAFC00BEDFD3 /* SignInController.swift */; };
+		7581A3DD284D000400BEDFD3 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7581A3DC284D000400BEDFD3 /* SignUpController.swift */; };
+		7581A3DF284D05CF00BEDFD3 /* HomePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7581A3DE284D05CF00BEDFD3 /* HomePageController.swift */; };
+		75EDC195286DBE9A00921723 /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EDC194286DBE9A00921723 /* CheckoutViewController.swift */; };
 		75EE759F284CB92D007D09A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EE759E284CB92D007D09A6 /* AppDelegate.swift */; };
 		75EE75A1284CB92D007D09A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EE75A0284CB92D007D09A6 /* SceneDelegate.swift */; };
-		75EE75A3284CB92D007D09A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EE75A2284CB92D007D09A6 /* ViewController.swift */; };
 		75EE75A6284CB92D007D09A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75EE75A4284CB92D007D09A6 /* Main.storyboard */; };
 		75EE75A8284CB930007D09A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75EE75A7284CB930007D09A6 /* Assets.xcassets */; };
 		75EE75AB284CB930007D09A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75EE75A9284CB930007D09A6 /* LaunchScreen.storyboard */; };
+		75EF3964285BB50A00F3467B /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EF3963285BB50A00F3467B /* Utils.swift */; };
+		75EF3966285BD4BC00F3467B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EF3965285BD4BC00F3467B /* User.swift */; };
+		75F1620C2862725800BAB121 /* ComedianCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F1620B2862725800BAB121 /* ComedianCollectionViewCell.swift */; };
+		75F1620E286274E800BAB121 /* ComediansViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F1620D286274E800BAB121 /* ComediansViewModel.swift */; };
+		75FACEC9285C18BD00424133 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FACEC8285C18BD00424133 /* UserRepository.swift */; };
+		75FACECB285C18E900424133 /* DataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FACECA285C18E900424133 /* DataRepository.swift */; };
+		75FACECF285C19DE00424133 /* Show.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FACECE285C19DE00424133 /* Show.swift */; };
+		75FACED1285C1AAC00424133 /* Seat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FACED0285C1AAC00424133 /* Seat.swift */; };
+		75FACED3285C210500424133 /* Comedian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FACED2285C210500424133 /* Comedian.swift */; };
+		8B3AB7996A2C21D443B2ABFA /* Pods_ComedyBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E6836C3C934B0A8E50E9A68 /* Pods_ComedyBook.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		34CAA8A2C37CE72DAE73F19E /* Pods-ComedyBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComedyBook.release.xcconfig"; path = "Target Support Files/Pods-ComedyBook/Pods-ComedyBook.release.xcconfig"; sourceTree = "<group>"; };
+		6E6836C3C934B0A8E50E9A68 /* Pods_ComedyBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ComedyBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7507B788286AE4330040D202 /* ShowCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCollectionViewCell.swift; sourceTree = "<group>"; };
+		7507B78A286AED320040D202 /* ShowsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowsViewController.swift; sourceTree = "<group>"; };
+		7507B78C286CB9220040D202 /* ShowsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowsViewModel.swift; sourceTree = "<group>"; };
+		7507B78E286D00DB0040D202 /* SeatSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatSelectionViewController.swift; sourceTree = "<group>"; };
+		7507B790286D0DB80040D202 /* SeatCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatCollectionViewCell.swift; sourceTree = "<group>"; };
+		7507B792286D0E9E0040D202 /* SelectedSeatCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedSeatCollectionViewCell.swift; sourceTree = "<group>"; };
+		7581A3CD284CC12500BEDFD3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7581A3DA284CEAFC00BEDFD3 /* SignInController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInController.swift; sourceTree = "<group>"; };
+		7581A3DC284D000400BEDFD3 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		7581A3DE284D05CF00BEDFD3 /* HomePageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageController.swift; sourceTree = "<group>"; };
+		75EDC194286DBE9A00921723 /* CheckoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
 		75EE759B284CB92D007D09A6 /* ComedyBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComedyBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75EE759E284CB92D007D09A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75EE75A0284CB92D007D09A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		75EE75A2284CB92D007D09A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		75EE75A5284CB92D007D09A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		75EE75A7284CB930007D09A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75EE75AA284CB930007D09A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75EE75AC284CB930007D09A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75EF3963285BB50A00F3467B /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		75EF3965285BD4BC00F3467B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		75F1620B2862725800BAB121 /* ComedianCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComedianCollectionViewCell.swift; sourceTree = "<group>"; };
+		75F1620D286274E800BAB121 /* ComediansViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComediansViewModel.swift; sourceTree = "<group>"; };
+		75FACEC8285C18BD00424133 /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
+		75FACECA285C18E900424133 /* DataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRepository.swift; sourceTree = "<group>"; };
+		75FACECE285C19DE00424133 /* Show.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Show.swift; sourceTree = "<group>"; };
+		75FACED0285C1AAC00424133 /* Seat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seat.swift; sourceTree = "<group>"; };
+		75FACED2285C210500424133 /* Comedian.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comedian.swift; sourceTree = "<group>"; };
+		E5AE66B2D16DA975BE7F9915 /* Pods-ComedyBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComedyBook.debug.xcconfig"; path = "Target Support Files/Pods-ComedyBook/Pods-ComedyBook.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +73,87 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B3AB7996A2C21D443B2ABFA /* Pods_ComedyBook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2FC2151670226CE29C89EC2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E6836C3C934B0A8E50E9A68 /* Pods_ComedyBook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F1522DA1A43AAD795424447 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5AE66B2D16DA975BE7F9915 /* Pods-ComedyBook.debug.xcconfig */,
+				34CAA8A2C37CE72DAE73F19E /* Pods-ComedyBook.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7581A3D2284CE9AA00BEDFD3 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				75FACEC8285C18BD00424133 /* UserRepository.swift */,
+				75FACECA285C18E900424133 /* DataRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		7581A3D4284CE9E300BEDFD3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				75EF3965285BD4BC00F3467B /* User.swift */,
+				75FACECE285C19DE00424133 /* Show.swift */,
+				75FACED0285C1AAC00424133 /* Seat.swift */,
+				75FACED2285C210500424133 /* Comedian.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7581A3D5284CE9E800BEDFD3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				75F1620D286274E800BAB121 /* ComediansViewModel.swift */,
+				7507B78C286CB9220040D202 /* ShowsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7581A3D6284CE9EE00BEDFD3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7581A3DA284CEAFC00BEDFD3 /* SignInController.swift */,
+				7581A3DC284D000400BEDFD3 /* SignUpController.swift */,
+				7581A3DE284D05CF00BEDFD3 /* HomePageController.swift */,
+				7507B78A286AED320040D202 /* ShowsViewController.swift */,
+				7507B78E286D00DB0040D202 /* SeatSelectionViewController.swift */,
+				75EDC194286DBE9A00921723 /* CheckoutViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7581A3D7284CE9F700BEDFD3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				75EF3963285BB50A00F3467B /* Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		75EE7592284CB92D007D09A6 = {
 			isa = PBXGroup;
 			children = (
 				75EE759D284CB92D007D09A6 /* ComedyBook */,
 				75EE759C284CB92D007D09A6 /* Products */,
+				5F1522DA1A43AAD795424447 /* Pods */,
+				2FC2151670226CE29C89EC2D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +168,32 @@
 		75EE759D284CB92D007D09A6 /* ComedyBook */ = {
 			isa = PBXGroup;
 			children = (
+				75F1620A28626F1700BAB121 /* View */,
+				7581A3D7284CE9F700BEDFD3 /* Utils */,
+				7581A3D6284CE9EE00BEDFD3 /* Controller */,
+				7581A3D5284CE9E800BEDFD3 /* ViewModel */,
+				7581A3D4284CE9E300BEDFD3 /* Model */,
+				7581A3D2284CE9AA00BEDFD3 /* Repository */,
+				7581A3CD284CC12500BEDFD3 /* GoogleService-Info.plist */,
 				75EE759E284CB92D007D09A6 /* AppDelegate.swift */,
 				75EE75A0284CB92D007D09A6 /* SceneDelegate.swift */,
-				75EE75A2284CB92D007D09A6 /* ViewController.swift */,
 				75EE75A4284CB92D007D09A6 /* Main.storyboard */,
 				75EE75A7284CB930007D09A6 /* Assets.xcassets */,
 				75EE75A9284CB930007D09A6 /* LaunchScreen.storyboard */,
 				75EE75AC284CB930007D09A6 /* Info.plist */,
 			);
 			path = ComedyBook;
+			sourceTree = "<group>";
+		};
+		75F1620A28626F1700BAB121 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				75F1620B2862725800BAB121 /* ComedianCollectionViewCell.swift */,
+				7507B788286AE4330040D202 /* ShowCollectionViewCell.swift */,
+				7507B790286D0DB80040D202 /* SeatCollectionViewCell.swift */,
+				7507B792286D0E9E0040D202 /* SelectedSeatCollectionViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +203,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75EE75AF284CB930007D09A6 /* Build configuration list for PBXNativeTarget "ComedyBook" */;
 			buildPhases = (
+				A9585F5F9EE4E5B7A768437E /* [CP] Check Pods Manifest.lock */,
 				75EE7597284CB92D007D09A6 /* Sources */,
 				75EE7598284CB92D007D09A6 /* Frameworks */,
 				75EE7599284CB92D007D09A6 /* Resources */,
+				877E526D5B19A67778530D8C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				75EE75AB284CB930007D09A6 /* LaunchScreen.storyboard in Resources */,
+				7581A3CE284CC12500BEDFD3 /* GoogleService-Info.plist in Resources */,
 				75EE75A8284CB930007D09A6 /* Assets.xcassets in Resources */,
 				75EE75A6284CB92D007D09A6 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +265,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		877E526D5B19A67778530D8C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ComedyBook/Pods-ComedyBook-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ComedyBook/Pods-ComedyBook-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ComedyBook/Pods-ComedyBook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9585F5F9EE4E5B7A768437E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ComedyBook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		75EE7597284CB92D007D09A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75EE75A3284CB92D007D09A6 /* ViewController.swift in Sources */,
+				7581A3DB284CEAFC00BEDFD3 /* SignInController.swift in Sources */,
+				7507B78D286CB9220040D202 /* ShowsViewModel.swift in Sources */,
+				7581A3DF284D05CF00BEDFD3 /* HomePageController.swift in Sources */,
+				75F1620E286274E800BAB121 /* ComediansViewModel.swift in Sources */,
+				75FACED1285C1AAC00424133 /* Seat.swift in Sources */,
+				7507B789286AE4330040D202 /* ShowCollectionViewCell.swift in Sources */,
+				7507B78F286D00DB0040D202 /* SeatSelectionViewController.swift in Sources */,
+				75F1620C2862725800BAB121 /* ComedianCollectionViewCell.swift in Sources */,
+				7507B793286D0E9E0040D202 /* SelectedSeatCollectionViewCell.swift in Sources */,
 				75EE759F284CB92D007D09A6 /* AppDelegate.swift in Sources */,
+				7507B78B286AED320040D202 /* ShowsViewController.swift in Sources */,
+				7507B791286D0DB80040D202 /* SeatCollectionViewCell.swift in Sources */,
 				75EE75A1284CB92D007D09A6 /* SceneDelegate.swift in Sources */,
+				75EDC195286DBE9A00921723 /* CheckoutViewController.swift in Sources */,
+				75FACED3285C210500424133 /* Comedian.swift in Sources */,
+				7581A3DD284D000400BEDFD3 /* SignUpController.swift in Sources */,
+				75EF3964285BB50A00F3467B /* Utils.swift in Sources */,
+				75FACECB285C18E900424133 /* DataRepository.swift in Sources */,
+				75FACEC9285C18BD00424133 /* UserRepository.swift in Sources */,
+				75EF3966285BD4BC00F3467B /* User.swift in Sources */,
+				75FACECF285C19DE00424133 /* Show.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +474,7 @@
 		};
 		75EE75B0284CB930007D09A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5AE66B2D16DA975BE7F9915 /* Pods-ComedyBook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -309,6 +502,7 @@
 		};
 		75EE75B1284CB930007D09A6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34CAA8A2C37CE72DAE73F19E /* Pods-ComedyBook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
